@@ -5,274 +5,100 @@
 
   <defs>
 
-    
-    <linearGradient id="spiderBG"
-                    x1="0%"
-                    y1="0%"
-                    x2="100%"
-                    y2="100%">
 
-      <stop offset="0%"   stop-color="#06183f"/>
-      <stop offset="38%"  stop-color="#0b3f91"/>
-      <stop offset="50%"  stop-color="#151515"/>
-      <stop offset="62%"  stop-color="#a90000"/>
-      <stop offset="100%" stop-color="#3d0000"/>
-
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071a4d"/>
+      <stop offset="45%" stop-color="#0b3d91"/>
+      <stop offset="55%" stop-color="#b00000"/>
+      <stop offset="100%" stop-color="#350000"/>
     </linearGradient>
 
-
-   
-    <radialGradient id="centerGlow"
-                    cx="50%"
-                    cy="50%"
-                    r="65%">
-
-      <stop offset="0%"
-            stop-color="#ffffff"
-            stop-opacity="0.22"/>
-
-      <stop offset="35%"
-            stop-color="#ff2020"
-            stop-opacity="0.10"/>
-
-      <stop offset="70%"
-            stop-color="#087cff"
-            stop-opacity="0.08"/>
-
-      <stop offset="100%"
-            stop-color="#000000"
-            stop-opacity="0"/>
-
+  
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="45%" stop-color="#ff2020" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
 
 
-  
-    <filter id="textGlow"
-            x="-50%"
-            y="-50%"
-            width="200%"
-            height="200%">
-
-      <feGaussianBlur
-        stdDeviation="3"
-        result="blur"/>
-
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
-
     </filter>
 
-
    
-    <pattern id="webPattern"
+    <pattern id="web"
              width="100"
              height="100"
              patternUnits="userSpaceOnUse">
 
-      <path d="M50 0 V100"
+      <path d="M50 0 V100 M0 50 H100"
             stroke="#ffffff"
-            stroke-opacity="0.09"
-            fill="none"/>
-
-      <path d="M0 50 H100"
-            stroke="#ffffff"
-            stroke-opacity="0.09"
+            stroke-opacity="0.10"
             fill="none"/>
 
       <path d="M50 0
-               C50 28 72 50 100 50
-               C72 50 50 72 50 100
-               C50 72 28 50 0 50
-               C28 50 50 28 50 0"
-
+               C50 30 70 50 100 50
+               M100 50
+               C70 50 50 70 50 100
+               M50 100
+               C50 70 30 50 0 50
+               M0 50
+               C30 50 50 30 50 0"
             stroke="#ffffff"
-            stroke-opacity="0.12"
+            stroke-opacity="0.13"
             fill="none"/>
 
-      <circle cx="50"
-              cy="50"
-              r="22"
+      <circle cx="50" cy="50" r="20"
               fill="none"
               stroke="#ffffff"
-              stroke-opacity="0.09"/>
-
-      <circle cx="50"
-              cy="50"
-              r="40"
-              fill="none"
-              stroke="#ffffff"
-              stroke-opacity="0.07"/>
+              stroke-opacity="0.10"/>
 
     </pattern>
 
 
-
     <clipPath id="typingClip">
-
-      <rect x="120"
-            y="45"
-            width="0"
-            height="90">
-
+      <rect x="120" y="55" width="0" height="70">
         <animate
           attributeName="width"
-
-          values="
-          0;
-          17;
-          35;
-          52;
-          70;
-          87;
-          104;
-          122;
-          139;
-          157;
-          174;
-          191;
-          209;
-          226;
-          243;
-          261;
-          278;
-          296;
-          313;
-          330;
-          348;
-          365;
-          383;
-          400;
-          417;
-          435;
-          452;
-          452;
-          452;
-          435;
-          417;
-          400;
-          383;
-          365;
-          348;
-          330;
-          313;
-          296;
-          278;
-          261;
-          243;
-          226;
-          209;
-          191;
-          174;
-          157;
-          139;
-          122;
-          104;
-          87;
-          70;
-          52;
-          35;
-          17;
-          0;
-          0"
-
-          keyTimes="
-          0;
-          0.018;
-          0.036;
-          0.054;
-          0.072;
-          0.090;
-          0.108;
-          0.126;
-          0.144;
-          0.162;
-          0.180;
-          0.198;
-          0.216;
-          0.234;
-          0.252;
-          0.270;
-          0.288;
-          0.306;
-          0.324;
-          0.342;
-          0.360;
-          0.378;
-          0.396;
-          0.414;
-          0.432;
-          0.450;
-          0.468;
-          0.620;
-          0.700;
-          0.718;
-          0.736;
-          0.754;
-          0.772;
-          0.790;
-          0.808;
-          0.826;
-          0.844;
-          0.862;
-          0.880;
-          0.898;
-          0.916;
-          0.934;
-          0.952;
-          0.970;
-          0.988;
-          1"
-
-          dur="11s"
+          values="0;0;80;170;260;350;450;560;680;760;760;0"
+          keyTimes="0;0.05;0.12;0.19;0.26;0.33;0.40;0.47;0.54;0.61;0.72;1"
+          dur="8s"
           repeatCount="indefinite"/>
-
       </rect>
-
     </clipPath>
 
   </defs>
 
 
-
-
-  <rect x="0"
-        y="0"
-        width="900"
+  <rect width="900"
         height="180"
         rx="18"
-        fill="url(#spiderBG)"/>
+        fill="url(#bg)"/>
 
-
-  
 
   <ellipse cx="450"
            cy="90"
-           rx="450"
-           ry="150"
-           fill="url(#centerGlow)">
-
+           rx="430"
+           ry="130"
+           fill="url(#glow)">
     <animate
       attributeName="opacity"
       values="0.6;1;0.6"
       dur="3s"
       repeatCount="indefinite"/>
-
   </ellipse>
 
 
- 
-
-  <rect x="0"
-        y="0"
-        width="900"
+  <rect width="900"
         height="180"
         rx="18"
-        fill="url(#webPattern)"/>
+        fill="url(#web)"/>
 
-
-
+ 
   <g fill="none"
      stroke="#ffffff"
      stroke-opacity="0.35"
@@ -283,15 +109,13 @@
     <path d="M0 0 Q320 90 0 180"/>
 
     <path d="M0 0 Q60 45 120 0"/>
-    <path d="M0 45 Q85 68 175 30"/>
-    <path d="M0 90 Q100 90 205 70"/>
-    <path d="M0 135 Q85 112 175 150"/>
+    <path d="M0 45 Q80 70 170 30"/>
+    <path d="M0 90 Q100 90 200 70"/>
+    <path d="M0 135 Q80 110 170 150"/>
     <path d="M0 180 Q60 135 120 180"/>
 
   </g>
 
-
- 
 
   <g fill="none"
      stroke="#ffffff"
@@ -303,16 +127,14 @@
     <path d="M900 0 Q580 90 900 180"/>
 
     <path d="M900 0 Q840 45 780 0"/>
-    <path d="M900 45 Q815 68 725 30"/>
-    <path d="M900 90 Q800 90 695 70"/>
-    <path d="M900 135 Q815 112 725 150"/>
+    <path d="M900 45 Q820 70 730 30"/>
+    <path d="M900 90 Q800 90 700 70"/>
+    <path d="M900 135 Q820 110 730 150"/>
     <path d="M900 180 Q840 135 780 180"/>
 
   </g>
 
-
- 
-
+  
   <rect x="3"
         y="3"
         width="894"
@@ -323,207 +145,69 @@
         stroke-opacity="0.25"
         stroke-width="2"/>
 
-
-
-
+  
   <g clip-path="url(#typingClip)">
 
-    <text x="450"
-          y="108"
+    <text x="785"
+          y="78"
           text-anchor="middle"
           font-family="Fira Code, monospace"
           font-size="29"
           font-weight="bold"
-          letter-spacing="1"
           fill="#ffffff"
           filter="url(#textGlow)">
-
       APRIMORAMENTO DO FRONT END
-
     </text>
 
   </g>
 
 
- 
-  <rect x="120"
-        y="76"
+  <rect x="785"
+        y="78"
         width="3"
-        height="39"
-        rx="1"
-        fill="#ffffff"
-        filter="url(#textGlow)">
-
-
-
-    <animate
-      attributeName="x"
-
-      values="
-      120;
-      137;
-      155;
-      172;
-      190;
-      207;
-      224;
-      242;
-      259;
-      277;
-      294;
-      311;
-      329;
-      346;
-      363;
-      381;
-      398;
-      416;
-      433;
-      450;
-      468;
-      485;
-      503;
-      520;
-      537;
-      555;
-      572;
-      572;
-      572;
-      555;
-      537;
-      520;
-      503;
-      485;
-      468;
-      450;
-      433;
-      416;
-      398;
-      381;
-      363;
-      346;
-      329;
-      311;
-      294;
-      277;
-      259;
-      242;
-      224;
-      207;
-      190;
-      172;
-      155;
-      137;
-      120;
-      120"
-
-      keyTimes="
-      0;
-      0.018;
-      0.036;
-      0.054;
-      0.072;
-      0.090;
-      0.108;
-      0.126;
-      0.144;
-      0.162;
-      0.180;
-      0.198;
-      0.216;
-      0.234;
-      0.252;
-      0.270;
-      0.288;
-      0.306;
-      0.324;
-      0.342;
-      0.360;
-      0.378;
-      0.396;
-      0.414;
-      0.432;
-      0.450;
-      0.468;
-      0.620;
-      0.700;
-      0.718;
-      0.736;
-      0.754;
-      0.772;
-      0.790;
-      0.808;
-      0.826;
-      0.844;
-      0.862;
-      0.880;
-      0.898;
-      0.916;
-      0.934;
-      0.952;
-      0.970;
-      0.988;
-      1"
-
-      dur="11s"
-      repeatCount="indefinite"/>
-
-
+        height="38"
+        fill="#ffffff">
 
     <animate
       attributeName="opacity"
-      values="1;1;0;0;1"
+      values="1;0;1"
       dur="0.8s"
+      repeatCount="indefinite"/>
+
+    <animate
+      attributeName="x"
+      values="120;785;785;120"
+      keyTimes="0;0.61;0.72;1"
+      dur="8s"
       repeatCount="indefinite"/>
 
   </rect>
 
 
-
-
   <g fill="#ffffff">
 
-    <circle cx="110" cy="35" r="2">
-
+    <circle cx="120" cy="35" r="2">
       <animate
         attributeName="opacity"
         values="0.2;1;0.2"
-        dur="1.6s"
+        dur="1.5s"
         repeatCount="indefinite"/>
-
     </circle>
 
-
-    <circle cx="790" cy="145" r="2">
-
+    <circle cx="780" cy="145" r="2">
       <animate
         attributeName="opacity"
         values="1;0.2;1"
         dur="2s"
         repeatCount="indefinite"/>
-
     </circle>
 
-
-    <circle cx="240" cy="145" r="1.5">
-
+    <circle cx="250" cy="145" r="1.5">
       <animate
         attributeName="opacity"
         values="0.2;1;0.2"
         dur="1.8s"
         repeatCount="indefinite"/>
-
-    </circle>
-
-
-    <circle cx="670" cy="35" r="1.5">
-
-      <animate
-        attributeName="opacity"
-        values="1;0.2;1"
-        dur="1.4s"
-        repeatCount="indefinite"/>
-
     </circle>
 
   </g>
