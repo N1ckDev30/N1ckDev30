@@ -107,6 +107,10 @@ Anyone can wear the mask.
 
 <br><br>
 
-With great power comes great responsibility.
+<div align="center">
+
+<img src="./spider-banner2.svg" width="900">
+
+</div>
 
 </div>
