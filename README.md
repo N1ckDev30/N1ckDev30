@@ -90,7 +90,7 @@ Anyone can wear the mask.
 
 <div align="center">
 
-<a href="https://github.com/N1ckDev">
+<a href="https://github.com/N1ckDev30">
 <img src="https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white">
 </a>
 
