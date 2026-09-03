@@ -61,6 +61,8 @@ Tecnologias:
 ---
 
 ## Atualmente estudando
+
+
 ```text
 HTML
 CSS
