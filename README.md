@@ -8,9 +8,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1d4ed8,50:b91c1c,100:0d1117&height=180&section=header&text=APRIMORAMENTO%20DO%20FRONT%20END&fontSize=25&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=150&pause=1200&color=FFFFFF&center=true&vCenter=true&width=700&height=50&lines=APRIMORAMENTO+DO+FRONT+END&repeat=true"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=150&pause=1000&color=FFFFFF&center=true&vCenter=true&width=900&height=180&lines=APRIMORAMENTO+DO+FRONT+END&repeat=false&background=0D1117"/>
 
 </div>
 
