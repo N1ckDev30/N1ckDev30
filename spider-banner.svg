@@ -135,8 +135,8 @@
   </g>
 
   
-  <rect x="3"
-        y="3"
+  <rect x="4"
+        y="4"
         width="894"
         height="174"
         rx="16"
@@ -148,8 +148,8 @@
   
   <g clip-path="url(#typingClip)">
 
-    <text x="785"
-          y="78"
+    <text x="450"
+          y="108"
           text-anchor="middle"
           font-family="Fira Code, monospace"
           font-size="29"
