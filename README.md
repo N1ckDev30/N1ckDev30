@@ -95,13 +95,11 @@ GitHub
 
 ---
 
-## Spider-Verse
+
 
 <div align="center">
 
 <img src="https://i.pinimg.com/originals/f0/2f/90/f02f905bd760ee911d698f79720cf6a6.gif" width="500">
-
-### Peter Parker
 
 Anyone can wear the mask.
 
