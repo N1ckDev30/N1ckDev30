@@ -6,7 +6,7 @@
   <defs>
 
 ```
-<!-- FUNDO AZUL + VERMELHO -->
+
 <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
   <stop offset="0%" stop-color="#071a4d"/>
   <stop offset="45%" stop-color="#0b3d91"/>
@@ -14,14 +14,12 @@
   <stop offset="100%" stop-color="#350000"/>
 </linearGradient>
 
-<!-- BRILHO -->
 <radialGradient id="glow">
   <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
   <stop offset="45%" stop-color="#ff2020" stop-opacity="0.15"/>
   <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
 </radialGradient>
 
-<!-- BRILHO DO TEXTO -->
 <filter id="textGlow">
   <feGaussianBlur stdDeviation="3" result="blur"/>
   <feMerge>
@@ -30,7 +28,6 @@
   </feMerge>
 </filter>
 
-<!-- TEIA -->
 <pattern id="web"
          width="100"
          height="100"
@@ -62,12 +59,7 @@
 </pattern>
 
 
-<!--
-  ÁREA DA DIGITAÇÃO
 
-  O texto começa em X=120.
-  A largura máxima é 660px.
--->
 <clipPath id="typingClip">
 
   <rect x="120"
@@ -118,14 +110,13 @@
 
   </defs>
 
-  <!-- FUNDO -->
+
 
 <rect width="900"
      height="180"
      rx="18"
      fill="url(#bg)"/>
-
-  <!-- BRILHO -->
+ 
 
 <ellipse cx="450"
         cy="90"
@@ -143,14 +134,14 @@
 
   </ellipse>
 
-  <!-- TEIA DE FUNDO -->
+
 
 <rect width="900"
      height="180"
      rx="18"
      fill="url(#web)"/>
 
-  <!-- TEIA ESQUERDA -->
+ 
 
 <g fill="none"
   stroke="#ffffff"
@@ -171,7 +162,7 @@
 
   </g>
 
-  <!-- TEIA DIREITA -->
+
 
 <g fill="none"
   stroke="#ffffff"
@@ -192,7 +183,7 @@
 
   </g>
 
-  <!-- BORDA -->
+
 
 <rect x="3"
      y="3"
@@ -204,7 +195,6 @@
      stroke-opacity="0.25"
      stroke-width="2"/>
 
-  <!-- TEXTO -->
 
   <g clip-path="url(#typingClip)">
 
@@ -228,17 +218,7 @@
 
   </g>
 
-  <!--
-    CURSOR
-
-    MESMOS KEYTIMES DA DIGITAÇÃO.
-
-    0       = início
-    0.05    = começa
-    0.61    = frase completa
-    0.72    = permanece completa
-    1       = volta ao início
-  -->
+ 
 
 <rect x="120"
      y="78"
@@ -284,7 +264,7 @@
   repeatCount="indefinite"/>
 
 
-<!-- PISCAR DO CURSOR -->
+
 <animate
   attributeName="opacity"
   values="1;0;1"
@@ -294,7 +274,7 @@
 
   </rect>
 
-  <!-- PARTÍCULAS -->
+
 
   <g fill="#ffffff">
 
