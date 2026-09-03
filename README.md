@@ -23,10 +23,10 @@
 ## Sobre mim
 
 Olá! Eu sou **Nicolas**, estudante de Informática e apaixonado por programação, tecnologia e desenvolvimento de projetos.
-Atualmente, estou aprimorando minhas habilidades em **desenvolvimento Web**, trabalhando principalmente com **Java, JavaScript, HTML e CSS**. Tenho interesse tanto em **Front-End**, buscando evoluir cada vez mais na criação de aplicações completas e funcionais.
+Atualmente, estou aprimorando minhas habilidades em **desenvolvimento Web**, trabalhando principalmente com **Java, JavaScript, HTML e CSS**. Tenho interesse em **Front-End**, buscando evoluir cada vez mais na criação de aplicações completas e funcionais.
 Meu objetivo é continuar aprendendo novas tecnologias, desenvolver projetos e construir uma base sólida para atuar como **desenvolvedor Front-End**, sempre buscando melhorar minhas habilidades e conhecimentos.
 
-> **“A mente que se abre a uma nova ideia jamais volta ao seu tamanho original.” — Albert Einstein**
+  **“A mente que se abre a uma nova ideia jamais volta ao seu tamanho original.” — Albert Einstein**
 
 
 
