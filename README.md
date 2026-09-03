@@ -4,11 +4,7 @@
 
 ### Desenvolvedor em formação | Front-End Developer
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:b91c1c,100:1d4ed8&height=180&section=header&text=WITH%20GREAT%20POWER%20COMES%20GREAT%20CODE&fontSize=25&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
-
-</div>
-
-<<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:b91c1c,100:1d4ed8&height=180&section=header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:b91c1c,100:1d4ed8&height=180&section=header"/>
 
 <div align="center">
 
@@ -16,7 +12,12 @@
 
 </div>
 
-</div>
+
+<div align="center">
+ 
+  <img src="https://c.tenor.com/_E3xfUpqxJMAAAAC/homem-aranha-spider.gif" width="600"> 
+  </div>
+
 
 
 
