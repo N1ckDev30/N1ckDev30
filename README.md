@@ -47,9 +47,6 @@ Web, Java, JavaScript, HTML, CSS e outras tecnologias.
 
 <img src="https://skillicons.dev/icons?i=git,github,vscode" />
 
-### Outras tecnologias
-
-<img src="https://skillicons.dev/icons?i=threejs" />
 
 </div>
 
