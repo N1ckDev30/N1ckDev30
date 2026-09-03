@@ -23,7 +23,7 @@
 ## Sobre mim
 
 Olá! Eu sou Nicolas, estudante de Informática e apaixonado por
-programação, tecnologia, desenvolvimento de projetos e games.
+programação, tecnologia, desenvolvimento de projetos.
 
 Atualmente estou desenvolvendo minhas habilidades em desenvolvimento
 Web, Java, JavaScript, HTML, CSS e outras tecnologias.
@@ -74,18 +74,6 @@ GitHub
 ```
 
 ---
-## GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=N1ckDev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" width="48%">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=N1ckDev&layout=compact&langs_count=7&theme=tokyonight" width="48%">
-
-</div>
-
----
-
 
 <div align="center">
 
