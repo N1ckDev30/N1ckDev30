@@ -17,6 +17,7 @@
 </div>
 
 
+
 ## Sobre mim
 
 Olá! Eu sou Nicolas, estudante de Informática e apaixonado por
@@ -25,9 +26,6 @@ programação, tecnologia, desenvolvimento de projetos e games.
 Atualmente estou desenvolvendo minhas habilidades em desenvolvimento
 Web, Java, JavaScript, HTML, CSS e outras tecnologias.
 
-
-
----
 
 ## Tech Stack
 
