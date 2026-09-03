@@ -1,0 +1,303 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="900"
+     height="180"
+     viewBox="0 0 900 180">
+
+  <defs>
+
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#071a4d"/>
+      <stop offset="45%" stop-color="#0b3d91"/>
+      <stop offset="55%" stop-color="#b00000"/>
+      <stop offset="100%" stop-color="#350000"/>
+    </linearGradient>
+
+ 
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="45%" stop-color="#ff2020" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+
+    <pattern id="web"
+             width="100"
+             height="100"
+             patternUnits="userSpaceOnUse">
+
+      <path d="M50 0 V100 M0 50 H100"
+            stroke="#ffffff"
+            stroke-opacity="0.10"
+            fill="none"/>
+
+      <path d="M50 0
+               C50 30 70 50 100 50
+               M100 50
+               C70 50 50 70 50 100
+               M50 100
+               C50 70 30 50 0 50
+               M0 50
+               C30 50 50 30 50 0"
+            stroke="#ffffff"
+            stroke-opacity="0.13"
+            fill="none"/>
+
+      <circle cx="50"
+              cy="50"
+              r="20"
+              fill="none"
+              stroke="#ffffff"
+              stroke-opacity="0.10"/>
+    </pattern>
+
+
+    <clipPath id="typingClip">
+
+      <rect x="120"
+            y="55"
+            width="0"
+            height="70">
+
+        <animate
+          id="typingAnimation"
+          attributeName="width"
+
+          values="
+            0;
+            0;
+            80;
+            170;
+            260;
+            350;
+            450;
+            560;
+            680;
+            760;
+            760;
+            0
+          "
+
+          keyTimes="
+            0;
+            0.05;
+            0.12;
+            0.19;
+            0.26;
+            0.33;
+            0.40;
+            0.47;
+            0.54;
+            0.61;
+            0.72;
+            1
+          "
+
+          dur="8s"
+          repeatCount="indefinite"/>
+
+      </rect>
+
+    </clipPath>
+
+  </defs>
+
+
+
+  <rect width="900"
+        height="180"
+        rx="18"
+        fill="url(#bg)"/>
+
+
+
+  <ellipse cx="450"
+           cy="90"
+           rx="430"
+           ry="130"
+           fill="url(#glow)">
+
+    <animate
+      attributeName="opacity"
+      values="0.6;1;0.6"
+      dur="3s"
+      repeatCount="indefinite"/>
+
+  </ellipse>
+
+
+  <rect width="900"
+        height="180"
+        rx="18"
+        fill="url(#web)"/>
+
+  <g fill="none"
+     stroke="#ffffff"
+     stroke-opacity="0.35"
+     stroke-width="1.5">
+
+    <path d="M0 0 Q120 90 0 180"/>
+    <path d="M0 0 Q220 90 0 180"/>
+    <path d="M0 0 Q320 90 0 180"/>
+
+    <path d="M0 0 Q60 45 120 0"/>
+    <path d="M0 45 Q80 70 170 30"/>
+    <path d="M0 90 Q100 90 200 70"/>
+    <path d="M0 135 Q80 110 170 150"/>
+    <path d="M0 180 Q60 135 120 180"/>
+
+  </g>
+
+  <g fill="none"
+     stroke="#ffffff"
+     stroke-opacity="0.35"
+     stroke-width="1.5">
+
+    <path d="M900 0 Q780 90 900 180"/>
+    <path d="M900 0 Q680 90 900 180"/>
+    <path d="M900 0 Q580 90 900 180"/>
+
+    <path d="M900 0 Q840 45 780 0"/>
+    <path d="M900 45 Q820 70 730 30"/>
+    <path d="M900 90 Q800 90 700 70"/>
+    <path d="M900 135 Q820 110 730 150"/>
+    <path d="M900 180 Q840 135 780 180"/>
+
+  </g>
+
+
+ 
+  <rect x="3"
+        y="3"
+        width="894"
+        height="174"
+        rx="16"
+        fill="none"
+        stroke="#ffffff"
+        stroke-opacity="0.25"
+        stroke-width="2"/>
+
+
+  <g clip-path="url(#typingClip)">
+
+    <text x="450"
+          y="108"
+          text-anchor="middle"
+          font-family="Fira Code, monospace"
+          font-size="29"
+          font-weight="bold"
+          fill="#ffffff"
+          filter="url(#textGlow)">
+
+      WITH GREATS POWERS,COME GREATS RESPONSABILITY
+
+    </text>
+
+  </g>
+
+
+
+
+  <rect x="120"
+        y="78"
+        width="3"
+        height="38"
+        fill="#ffffff">
+
+    <animate
+      attributeName="x"
+
+      values="
+        120;
+        120;
+        200;
+        290;
+        380;
+        470;
+        570;
+        680;
+        800;
+        880;
+        880;
+        120
+      "
+
+      keyTimes="
+        0;
+        0.05;
+        0.12;
+        0.19;
+        0.26;
+        0.33;
+        0.40;
+        0.47;
+        0.54;
+        0.61;
+        0.72;
+        1
+      "
+
+      dur="8s"
+      repeatCount="indefinite"/>
+
+  
+    <animate
+      attributeName="opacity"
+      values="1;0;1"
+      dur="0.8s"
+      repeatCount="indefinite"/>
+
+  </rect>
+
+
+
+  <g fill="#ffffff">
+
+    <circle cx="120"
+            cy="35"
+            r="2">
+
+      <animate
+        attributeName="opacity"
+        values="0.2;1;0.2"
+        dur="1.5s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <circle cx="780"
+            cy="145"
+            r="2">
+
+      <animate
+        attributeName="opacity"
+        values="1;0.2;1"
+        dur="2s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+
+    <circle cx="250"
+            cy="145"
+            r="1.5">
+
+      <animate
+        attributeName="opacity"
+        values="0.2;1;0.2"
+        dur="1.8s"
+        repeatCount="indefinite"/>
+
+    </circle>
+
+  </g>
+
+</svg>
