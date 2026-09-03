@@ -47,7 +47,7 @@ Web, Java, JavaScript, HTML, CSS e outras tecnologias.
 
 ## Projetos
 
----
+
 
 ### JJN FLIX
 
@@ -120,5 +120,3 @@ Anyone can wear the mask.
 With great power comes great responsibility.
 
 </div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1d4ed8,50:b91c1c,100:0d1117&height=120&section=footer"/>
