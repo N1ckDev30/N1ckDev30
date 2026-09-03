@@ -4,10 +4,10 @@
 
 ### Desenvolvedor em formação | Front-End Developer
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:b91c1c,100:1d4ed8&height=180&section=header"/>
+
 
 <div align="center">
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:b91c1c,100:1d4ed8&height=180&section=header"/>
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=700&lines=APRIMORAMENTO+DO+FRONT+END"/>
 
 </div>
