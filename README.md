@@ -72,29 +72,17 @@ GitHub
 ```
 
 ---
-
 ## GitHub Stats
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=N1ckDev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img src="https://github-readme-stats.vercel.app/api?username=N1ckDev&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" width="48%">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=N1ckDev&layout=compact&langs_count=7&theme=tokyonight"/>
-
-</div>
-
----
-
-## GitHub Streak
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=N1ckDev&theme=tokyonight"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=N1ckDev&layout=compact&langs_count=7&theme=tokyonight" width="48%">
 
 </div>
 
 ---
-
 
 
 <div align="center">
