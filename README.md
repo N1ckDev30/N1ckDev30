@@ -8,6 +8,13 @@
 
 </div>
 
+<div align="center">
+
+
+
+<img src="https://c.tenor.com/_E3xfUpqxJMAAAAC/homem-aranha-spider.gif" width="600">
+
+</div>
 ---
 
 ## Sobre mim
@@ -19,18 +26,6 @@ Atualmente estou desenvolvendo minhas habilidades em desenvolvimento
 Web, Java, JavaScript, HTML, CSS e outras tecnologias.
 
 
-
----
-
-## Spider-Man
-
-<div align="center">
-
-
-
-<img src="https://c.tenor.com/_E3xfUpqxJMAAAAC/homem-aranha-spider.gif" width="600">
-
-</div>
 
 ---
 
