@@ -8,10 +8,9 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=150&pause=1000&color=FFFFFF&center=true&vCenter=true&width=900&height=180&lines=APRIMORAMENTO+DO+FRONT+END&repeat=false&background=0D1117"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=25&duration=150&pause=1200&color=FFFFFF&center=true&vCenter=true&width=900&height=180&lines=APRIMORAMENTO+DO+FRONT+END&repeat=true&background=0D1117"/>
 
 </div>
-
 
 <div align="center">
  
